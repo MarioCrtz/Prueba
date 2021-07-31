@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/51ab126a26.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div id="contenedor_carga">
+      <div id="carga">
+      </div>
+    </div>
+    
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="dropdown">
+          <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuBoton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          <i class="fab fa-figma"></i>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuBoton">
+            <a href="#" class="dropdown-item">Accion 1</a>
+            <a href="#" class="dropdown-item">Accion 2</a>
+            <a href="#" class="dropdown-item">Accion 3</a>
+          </div>
+        </div class="nav-item">
+        <a href="#" class="btn btn-dark" type="button">
+          <i class="far fa-hand-paper"></i>
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Drinks<span class="sr-only"></span></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <button type="submit" class="btn btn-dark my-2 my-sm-0">Log in</button>
+          <a href="#"><i class="fas fa-caret-right"></i></a>
+        </form>
+      </div>
+    </nav><!--Fin barra de navegacion-->
+
+    <!--barra de abrir cuenta correo-->
+    <div class="container sticky-top-2" id="correo">
+      <div class="row">
+        <div class="col-sm-0">
+          <i class="fab fa-figma" id="corr"></i>
+        </div>
+        <div class="col-sm-6">
+          <p id="corr"><b>Welcome to Figma!</b> Create an account to edit and collaborate on this file.</p>
+        </div>
+        <div class="col-sm-5">
+          <button type="button" class="btn btn-outline-secondary" id="corr">Sign up with Google</button>
+          <button type="button" class="btn btn-success" id="corr">Signup with email</button>
+        </div>
+      </div>
+    </div><!--Fn de barra de abrir cuentaconcorreo-->
+
+      <div class="contenido">
+        <!--Home-->
+        <div class="tarjeta">
+          <div class="row">
+            <div class="col-sm-1" id="icono">
+              <a href="#" type="button">
+              <i class="fas fa-th-large"></i></a>
+            </div>
+            <div class="col-sm-6" id="barra">
+              <a href="#" id="bar">Home</a>
+              <a href="#" id="bar">Smoothies</a>
+              <a href="#" id="bar">About</a>
+              <a href="#" id="bar">Contact</a>
+            </div>
+          </div>
+          <div class="tarjeta2">
+            <div class="card-body">
+              <p id="titulo">Enjoy!</p>
+              <p class="card-text" align="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit ktjrir ieonji.</p>
+              <input type="search" placeholder="Search your drink" id="lblbuscar">
+              <button type="button" id="btnBuscar"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+          <div class="redes">
+            <div>
+              <a href="#" type="button"><i class="fab fa-facebook-f" id="figma"></i></a>
+            </div>
+            <div>
+              <a href="#" type="button"><i class="fab fa-twitter" id="figma"></i></a>
+            </div>
+            <div>
+              <a href="#" type="button"><i class="fab fa-instagram" id="figma"></i></a>
+            </div>
+          </div>
+          <div class="tarjeta3">
+            <div class="card-body">
+              <p class="card-text" align="left"><b>Blueberry <br>Special <br>calorias: 20 kcal <br>size: 10 oz</b></p>
+              <div id="porc">
+                <input type="text" placeholder="20%" id="porcent"></input> 
+                <p id="doce"><b>$12</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="tarjeta4">
+            <div class="card-body">
+              <p class="card-text" align="left"><b>Blueberry <br>Special <br>calorias: 20 kcal <br>size: 10 oz</b></p>
+              <div id="porc">
+                <input type="text" placeholder="20%" id="porcent"></input> 
+                <p id="doce"><b>$12</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="tarjeta5">
+            <div class="card-body">
+              <p class="card-text" align="left"><b>Blueberry <br>Special <br>calorias: 20 kcal <br>size: 10 oz</b></p>
+              <div id="porc">
+                <input type="text" placeholder="20%" id="porcent"></input> 
+                <p id="doce"><b>$12</b></p>
+              </div>
+            </div>
+          </div>
+        </div><!--Fn de Home-->
+
+        <!--shopping-->
+        <div class="tarjeta6">
+          <div class="row">
+            <div class="col-sm-1" id="icono">
+              <a href="#" type="button">
+              <i class="fas fa-th-large"></i></a>
+            </div>
+            <div class="col-sm-6" id="barra">
+              <a href="#" id="bar">Home</a>
+              <a href="#" id="bar">Smoothies</a>
+              <a href="#" id="bar">About</a>
+              <a href="#" id="bar">Contact</a>
+            </div>
+            <div class="dropdown" id="btnOrden">
+              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" id="btnOrdenbtn">
+                My order
+              </button>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">ljl;kj;l</a>
+                <a href="#" class="dropdown-item">jgkjg</a>
+              </div>
+            </div>
+          </div>
+          <div class="tarjeta2">
+            <div class="card-body">
+              <p id="titulo">Enjoy!</p>
+              <p class="card-text" align="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit ktjrir ieonji.</p>
+              <input type="search" placeholder="Search your drink" id="lblbuscar">
+              <button type="button" id="btnBuscar"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+          <div class="redes2">
+            <div>
+              <a href="#" type="button"><i class="fab fa-facebook-f" id="figma"></i></a>
+            </div>
+            <div>
+              <a href="#" type="button"><i class="fab fa-twitter" id="figma"></i></a>
+            </div>
+            <div>
+              <a href="#" type="button"><i class="fab fa-instagram" id="figma"></i></a>
+            </div>
+          </div>
+          <div class="tarjeta3">
+            <div class="card-body">
+              <p class="card-text" align="left"><b>Blueberry <br>Special <br>calorias: 20 kcal <br>size: 10 oz</b></p>
+              <div id="porc">
+                <input type="text" placeholder="20%" id="porcent"></input> 
+                <p id="doce"><b>$12</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="tarjeta4">
+            <div class="card-body">
+              <p class="card-text" align="left"><b>Blueberry <br>Special <br>calorias: 20 kcal <br>size: 10 oz</b></p>
+              <div id="porc">
+                <input type="text" placeholder="20%" id="porcent"></input> 
+                <p id="doce"><b>$12</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="tarjeta5">
+            <div class="card-body">
+              <p class="card-text" align="left"><b>Blueberry <br>Special <br>calorias: 20 kcal <br>size: 10 oz</b></p>
+              <div id="porc">
+                <input type="text" placeholder="20%" id="porcent"></input> 
+                <p id="doce"><b>$12</b></p>
+              </div>
+            </div>
+          </div>
+        </div><!--Fn de shoppng-->
+
+      </div>
+
+      <!--cards-->
+    <div class="container1">
+      <!--Navbar-->
+      <div class="nav2">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="nav2"><b>All</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="nav2"><b>Popular Drins</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="nav2"><b>Natural Smoothie</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="nav2"><b>juices</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="nav2"><b>yogurt</b></a>
+          </li>
+        </ul>
+        <div id="filter">
+          <a href="3" id="filt"><i class="fas fa-filter" id="filt"></i>Filter</a>
+        </div> 
+      </div><!--Fin de navbar-->
+      
+      <div id="titulo">
+        <h1>Popular Drinks</h1>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top" src="images/smothie1.png" alt="Card image">
+        <div class="card-body">
+          <h6 class="card-title">Stranberry and blue</h6>
+          <p class="card-text">$15.00 us</p>
+        </div>
+      </div>
+      
+      <div class="card" id="card1">
+        <img class="card-img-top" src="images/smothie2.png" alt="Card image">
+        <div class="card-body">
+          <h6 class="card-title">Stranberry and blue</h6>
+          <p class="card-text">$15.00 us</p>
+        </div>
+      </div>
+
+      <div class="card" id="card2">
+        <img class="card-img-top" src="images/smothie3.png" alt="Card image">
+        <div class="card-body">
+          <h6 class="card-title">Stranberry and blue</h6>
+          <p class="card-text">$15.00 us</p>
+        </div>
+      </div>
+
+      <div class="card" id="card3">
+        <img class="card-img-top" src="images/smothie4.png" alt="Card image">
+        <div class="card-body">
+          <h6 class="card-title">Stranberry and blue</h6>
+          <p class="card-text">$15.00 us</p>
+        </div>
+      </div>
+    </div><!--fin de cards--> 
+
+    <script>
+      window.onload = function(){
+        var contenedor = document.getElementById('contenedor_carga');
+        contenedor.style.visibility = 'hidden';
+        contenedor.style.opacity = '0';
+      }
+    </script>
+
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--poppers-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!--bootstrap-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

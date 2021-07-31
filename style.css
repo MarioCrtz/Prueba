@@ -1,0 +1,305 @@
+*,*:after, *:before{ 
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#contenedor-carga{
+	background: rgba(0, 0, 0, 0);
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	z-index: 10000;
+}
+
+#carga{
+	border: 10px solid #ccc;
+	border-top-color: #F4266A ;
+	border-top-style: groove;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	-webkit-animation: girar 1s linear infinite;
+	-o-animation: girar 1s linear infinite;
+	animation: girar 1s linear infinite;
+}
+
+@keyframes girar{
+	from{transform: rotate(0deg);}
+	to{ transform: rotate(360deg); };
+}
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.container-fluid{
+	height: 2050px;
+}
+
+.tarjeta{
+	margin: auto;
+	margin-top: 50px;
+	width: 700px;
+	height: 400px;
+	margin-left: 30px;
+	border-radius: 10px;
+	background-image: url(images/licuado.jpg);
+	background-repeat: no-repeat;
+	background-size: 697px 425px;
+	background-position: right;
+}
+
+.tarjeta6{
+	margin-top: -400px;
+	width: 700px;
+	height: 400px;
+	margin-left: 775px;
+	border-radius: 10px;
+	background-image: url(images/licuado.jpg);
+	background-repeat: no-repeat;
+	background-size: 697px 425px;
+	background-position: right;
+}
+
+.container{
+	width: 100px;
+	height: 100px; 
+	margin-top: 40px;
+	background: #E8DBD8;
+	border-radius: 10px;
+}
+
+.container1{
+	margin: auto;
+	margin-top: 15px;
+	width: 700px;
+	height: 400px;
+	margin-left: 30px;
+	border-radius: 10px;
+	background: white;
+}
+
+.sticky-top-2{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 80px;
+	z-index: 1025;
+}
+
+.tarjeta2{
+	margin-top: 40px;
+	border: 0px;
+	width: 225px;
+	margin-left: 10px;
+}
+
+.tarjeta3{
+	width: 150px;
+	height: 75px;
+	margin-top: -24px;
+	float: center;
+	margin-left: 535px;
+	margin-right: 40px;
+	border-radius: 15px;
+	font-size: 9px;
+	background-color: rgb(124, 252, 0);
+	opacity: 50%;
+}
+
+.tarjeta4{
+	width: 150px;
+	height: 75px;
+	margin-top: -76px;
+	float: center;
+	margin-left: 370px;
+	margin-right: 240px;
+	border-radius: 15px;
+	font-size: 9px;
+	background-color: rgb(240, 230, 140);
+	opacity: 50%;
+}
+
+.tarjeta5{
+	width: 150px;
+	height: 75px;
+	margin-top: -76px;
+	float: center;
+	margin-left: 215px;
+	margin-right: 240px;
+	border-radius: 15px;
+	font-size: 9px;
+	background-color: rgb(255, 105, 180);
+	opacity: 50%;
+}
+
+.redes{
+	margin-top: -225px;
+	float: right;
+	margin-right: 15px;
+}
+
+.redes2{
+	margin-top: -280px;
+	float: right;
+	margin-right: 15px;
+}
+
+#icono{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+#barra{
+	margin-top: 10px;
+	margin-left: 125px;
+}
+
+#lblbuscar{
+	width: 120px;
+	height: 20px;
+	font-family: arial;
+	font-size: 11px;
+	border: 1px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#btnBuscar{
+	width: 25px;
+	height: 25px;
+	border-radius: 50px;
+	background-color: #990099;
+	border: 0;
+}
+
+#titulo{
+	font-family: "Segoe UI";
+	color: #800080;
+	font-size: 50px;
+}
+
+#bar{
+	color: white;
+}
+
+#porcent{
+	width: 25px;
+	height: 25px;
+	border-radius: 50px;
+	float: right;
+	background-color: #990099;
+	font-size: 10px;
+	text-align: center;
+	border: 0;
+}
+
+#porc{
+	margin-top: -75px;
+	margin-left: 5px;
+	float: right;
+}
+
+::placeholder { color: black; }
+
+#doce{
+	font-size: 15px;
+}
+
+#corr{
+	margin-top: 35px;
+	margin-left: 10px;
+	border: 1px;
+}
+
+#figma{
+	color: white;
+}
+
+.nav2{
+	margin-left: 50px;
+}
+
+#nav2{
+	color: #800080;
+}
+
+#filter{
+	float: right;
+	margin-top: -30px;
+	margin-right: 15px;
+	color: #800080;
+}
+
+#filt{
+	color: #800080;
+}
+
+.card{
+	width: 150px;
+	height: 100px;
+	font-size: 12px;
+	margin-left: 10px;
+	position: auto;
+}
+
+#card1{
+	width: 150px;
+	height: 100px;
+	font-size: 12px;
+	margin-left: 170px;
+	margin-top: -100px;
+	position: auto;
+}
+
+#card2{
+	width: 170px;
+	height: 100px;
+	font-size: 12px;
+	margin-left: 330px;
+	margin-top: -100px;
+	position: auto;
+}
+
+#card3{
+	width: 170px;
+	height: 100px;
+	font-size: 12px;
+	margin-right: 15px;
+	margin-top: -100px;
+	position: auto;
+	float: right;
+}
+
+#card5{
+	width: 50px;
+	height: 50px;
+	position: auto;
+	float: left;
+}
+
+#card5-1{
+	float: right;
+	font-size: 6px;
+}
+
+#btnOrden{
+	margin-top: 5px;
+}
+
+#btnOrdenbtn{
+	color: white;
+}
